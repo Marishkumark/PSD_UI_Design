@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border font-body;
+}
+
+.navbar {
+  @apply w-full flex justify-between items-center lg:px-24 px-2;
+}
+
+.logo {
+  @apply md:text-3xl text-white text-2xl;
+}
+
+.nav-links {
+  @apply md:flex md:justify-end md:w-3/4 hidden;
+}
+
+.nav-links li {
+  @apply text-white lg:text-xl px-4 md:text-base;
+}
+
+button {
+  @apply border-none bg-none text-xl;
+}
+
+.mobile-menu-icon {
+  @apply md:hidden  block absolute text-white right-5;
+}
+
+.nav-links-mobile {
+  @apply absolute block left-0 top-[5%] transition-all duration-100 ease-in-out w-full bg-white z-10;
+}
+
+ul li {
+  @apply p-8 w-full transition-all duration-100 ease-in-out text-center md:bg-none text-sky-600;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@600;700&family=Catamaran:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border;
+}
+body {
+  @apply font-body;
+}
+.hero-container {
+  @apply bg-gradient-to-b from-sky-500 to-white h-128;
+}
+.hero {
+  @apply mx-auto pt-10 items-center lg:pt-36 lg:-mt-44;
+}
+.hero-content {
+  @apply md:w-4/6 md:translate-y-40 md:text-5xl  font-bold text-3xl;
+}
+.hero-img {
+  @apply lg:w-4/6 md:w-3/6 translate-y-7 animate-wiggle z-0 md:relative md:left-400px;
+}
+.padding {
+  @apply xl:mx-48 lg:mx-16 px-5 md:mx-10;
+}
+.gradient-word {
+  @apply font-Oswald text-transparent bg-clip-text bg-gradient-to-br from-sky-500 to-violet-700 opacity-20 lg:text-9xl xl:text-lm w-5/6 md:text-8xl text-5xl font-black mt-8;
+}
+.title {
+  @apply md:text-2xl sm:text-xl text-lg font-semibold;
+}
+.blue {
+  @apply text-sky-500 font-bold underline underline-offset-4;
+}
+.serv-detail {
+  @apply md:w-1/2 md:px-10;
+}
+.arrow-detail {
+  @apply xl:bottom-48 relative md:bottom-9 bottom-10 sm:bottom-2 lg:bottom-20;
+}
+.detail {
+  @apply md:mt-8 mt-4 text-xs md:text-base;
+}
+.serv-image {
+  @apply md:w-1/2 md:h-1/2 w-60 sm:w-96 mx-auto relative;
+}
+.arrow {
+  @apply md:bottom-20 lg:bottom-72 lg:left-16;
+}
+.property {
+  @apply md:flex;
+}
+.read-more {
+  @apply bg-gradient-to-br from-sky-400 to-blue-700 text-white px-2 py-1 rounded-lg mt-3 text-xs md:px-4 md:py-1 md:text-base md:mt-6;
+}
+.serv-gradient {
+  @apply lg:-mt-48;
+}
+.provide {
+  @apply relative bottom-5 md:bottom-8 lg:bottom-11;
+}
+.smm-detail {
+  @apply relative lg:top-24;
+}
+.property-reverse {
+  @apply flex flex-col-reverse md:flex-row;
+}
+.seo-property {
+  @apply mt-10;
+}
+.seo-detail {
+  @apply relative lg:top-24;
+}
+.ui-detail {
+  @apply md:mt-16;
+}
+.g-detail {
+  @apply md:mt-32;
+}
+.b-rocket {
+  @apply w-full relative lg:bottom-44 md:bottom-24;
+}
+.brand-detail {
+  @apply relative lg:bottom-98 lg:w-1/3 bottom-24 md:bottom-64;
+}
+.container-fluid {
+  @apply w-full pr-4 pl-0 mr-auto ml-auto;
+}
+.test-box {
+  @apply shadow-md md:p-9 md:m-1 overflow-x-auto;
+}
+.testimonial-carousel {
+  @apply flex;
+}
+.test-gradient {
+  @apply md:-mt-52 lg:-mt-96 -mt-10;
+}
+.img1 {
+  @apply mx-auto md:h-128;
+}
+.dblue {
+  @apply text-blue-900 font-semibold text-xs md:text-lg;
+}
+.align {
+  @apply flex flex-col items-center mt-3;
+}
+.img-shad {
+  @apply shadow-xl;
+}
+.port-flex {
+  @apply md:flex mx-auto;
+}
+.port-smg {
+  @apply lg:ml-40 flex md:flex-col flex-row mx-auto space-x-1;
+}
+.button-flex {
+  @apply md:flex md:flex-col;
+}
+.port-button {
+  @apply lg:ml-44 mx-auto;
+}
+.icon {
+  @apply text-blue-500 mx-auto;
+}
+.f-detail {
+  @apply md:w-1/3 font-semibold mt-9;
+}
+.footer-flex {
+  @apply md:flex mt-12;
+}
+.f-container {
+  @apply w-full bg-gradient-to-b from-cyan-500 to-blue-500 h-12 mt-10  text-white font-medium;
+}
