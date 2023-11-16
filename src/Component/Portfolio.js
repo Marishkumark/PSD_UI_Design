@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../home.css";
+import img1 from "./images/image1.png";
+import img2 from "./images/sm.jpg";
+import img3 from "./images/logo.jpeg";
+import img4 from "./images/banner.jpg";
 
 const ImagePortfolio = () => {
   return (
@@ -12,39 +16,43 @@ const ImagePortfolio = () => {
         <a href="https://www.behance.net/Bangaloremediawork" target="_blank">
           <div className="port-flex">
             <div className="port-img">
-              <img src="./images/image1.png" className="img1"></img>
+              <img src={img1} className="img1" alt="portfolio"></img>
             </div>
             <div className="button-flex">
               <div className="port-smg">
                 <div className="align">
                   <img
-                    src="./images/sm.jpg"
+                    src={img2}
                     className="img-shad"
                     width="100px"
+                    alt="Rocket"
                   ></img>
                   <p className="dblue">Social Media Post</p>
                 </div>
                 <div className="align">
                   <img
-                    src="./images/logo.jpeg"
+                    src={img3}
                     className="img-shad"
                     width="100px"
+                    alt="logo"
                   ></img>
                   <p className="dblue">Logos</p>
                 </div>
                 <div className="align">
                   <img
-                    src="./images/banner.jpg"
+                    src={img4}
                     className="img-shad"
                     width="100px"
+                    alt="banner"
                   ></img>
                   <p className="dblue">Banners</p>
                 </div>
                 <div className="align">
                   <img
-                    src="./images/banner.jpg"
+                    src={img4}
                     className="img-shad"
                     width="100px"
+                    alt="Rocket"
                   ></img>
                   <p className="dblue">Websites</p>
                 </div>

@@ -18,8 +18,7 @@ export default function Footer() {
               <MdLocationPin className="w-9 h-9 mx-auto" />
             </div>
             <p className="mx-auto text-center mt-3 text-xs md:text-base">
-              2/357-1, Second Floor, 3rd Cross Rd, OMBR Layout, Banaswadi,
-              Bengaluru 560043
+              123, abc Street, Chennai
             </p>
           </div>
           <div className="f-detail">
@@ -27,7 +26,7 @@ export default function Footer() {
               <FaPhoneAlt className="w-8 h-8 mx-auto" />
             </div>
             <p className="mx-auto text-center mt-3 text-xs md:text-base">
-              +91 96299 66446
+              +91 91235 67890
             </p>
           </div>
           <div className="f-detail">
@@ -35,14 +34,14 @@ export default function Footer() {
               <IoMail className="w-8 h-8 mx-auto" />
             </div>
             <p className="mx-auto text-center mt-3 text-xs md:text-base">
-              Support@bangaloremediaworks.in
+              Support@mail.com
             </p>
           </div>
         </div>
       </div>
       <div className="f-container">
         <p className="text-center pt-3 text-xs md:text-base">
-          © All rights reserved Bangalore Media Works @2025
+          © All rights reserved @2025
         </p>
       </div>
     </div>

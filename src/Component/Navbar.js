@@ -19,19 +19,19 @@ export default function Navbar() {
             <Link to="/">
               <li>Home</li>
             </Link>
-            <Link to="/About">
+            <Link to="/">
               <li>About Us</li>
             </Link>
-            <Link to="/Service">
+            <Link to="/">
               <li>Services</li>
             </Link>
-            <Link to="/Project">
+            <Link to="/">
               <li>Projects</li>
             </Link>
-            <Link to="/Gallery">
+            <Link to="/">
               <li>Gallery</li>
             </Link>
-            <Link to="/Contact">
+            <Link to="/">
               <li>Contact</li>
             </Link>
           </ul>
@@ -39,7 +39,13 @@ export default function Navbar() {
             className="mobile-menu-icon"
             onClick={() => setMobile(!Mobile)}
           >
-            {Mobile ? <ImCross /> : <FaBars />}
+            {Mobile ? (
+              <div className="text-color">
+                <ImCross />
+              </div>
+            ) : (
+              <FaBars />
+            )}
           </button>
         </nav>
       </div>

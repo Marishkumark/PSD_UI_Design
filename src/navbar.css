@@ -29,13 +29,17 @@ button {
 }
 
 .mobile-menu-icon {
-  @apply md:hidden  block absolute text-white right-5;
+  @apply md:hidden  block fixed text-white right-5 z-50 mt-4;
 }
 
 .nav-links-mobile {
-  @apply absolute block left-0 top-[5%] transition-all duration-100 ease-in-out w-full bg-white z-10;
+  @apply left-0 top-0 transition-all duration-100 ease-in-out w-full h-full bg-slate-900 z-10 fixed overflow-hidden  text-sky-500 pt-10;
 }
 
 ul li {
-  @apply p-8 w-full transition-all duration-100 ease-in-out text-center md:bg-none text-sky-600;
+  @apply p-5 w-full transition-all duration-100 ease-in-out text-center md:bg-none text-white;
+}
+
+text-color {
+  @apply text-sky-500 z-40;
 }
