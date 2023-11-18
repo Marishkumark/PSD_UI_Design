@@ -68,5 +68,3 @@ License
 This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
 
 * * * * *
-
-Feel free to explore the code and contribute to the project! If you have any questions or concerns, don't hesitate to reach out. Happy coding!
